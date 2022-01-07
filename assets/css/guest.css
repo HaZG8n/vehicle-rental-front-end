@@ -1,0 +1,682 @@
+@import url('./style.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* header/navbar */
+.donut-up{
+    position: absolute;
+    right: 52px;
+    top: 4px;
+}
+.nav-item{
+    margin-right: 35px;
+}
+.nav-link:hover{
+    color: #202336 !important;
+    font-weight: bold;
+}
+.btn-login{
+    width: 55%;
+    position: relative;
+    border: 1px solid #FFCD61;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+
+    padding: 8px 46px 8px 46px;
+
+    color: #393939;
+}
+.btn-login:active{
+    background-color: #393939;
+    color: #FFCD61;
+}
+
+.btn-register{
+    width: 55%;
+    position: relative;
+    background: #FFCD61;
+    border-radius: 8px;
+    border: none;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+
+    padding: 8px 46px 8px 46px;
+
+    color: #393939;
+
+    top: 8px;
+}
+.btn-register:active{
+    background-color: #393939;
+    color: #FFCD61;
+}
+
+/* main */
+.menu-bg{
+    background: url('../img/menu-bg.jpg');
+    height: 763px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+}
+.transparan-home{
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: auto;
+}
+.select-order{
+    position: relative;
+    text-align: center;
+    top: 80px;
+}
+.explore-travel{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    
+    color: #FFFFFF;
+    
+    mix-blend-mode: normal;
+}
+.finder{
+    position: relative;
+    font-family: Nunito;
+    font-style: normal;
+
+    color: #FFFFFF;
+    top: 12px;
+}
+.line-wrapper{
+    position: relative;
+    left: 12px;
+}
+.line{
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.forms-select{
+    position: relative;
+    opacity: 0.5;
+    border: 0.8px solid #AFB0B9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 100%;
+    height: 52px;
+    margin-top: 22px;
+}
+
+.form-dates{
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0.8px solid #AFB0B9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 100%;
+    height: 52px;
+    margin-top: 22px;
+}
+
+.btn-explore{
+    position: relative;
+    width: 100%;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 45px;
+
+    color: #393939;
+
+    background: #FFCD61;
+    border-radius: 8px;
+
+    top:80px;
+}
+.btn-explore:active{
+    background: #393939;
+    color: #FFCD61;
+}
+
+/* main bawah */
+.popular-town-list{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.view-all{
+    position: relative;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 60px;
+
+    mix-blend-mode: normal;
+}
+.view-all a{
+    text-decoration: none;
+
+    color: #FB8F1D;
+}
+.img-vehicle{
+    position: relative;
+    width: 284px;
+    height: 337px;
+    object-fit: cover;
+    background-position: center;
+    /* margin-top: 25px; */
+    top: 18px;
+    z-index: 1;
+}
+
+.text-block {
+    position: relative;
+    width: 120px;
+    height: 56px;
+
+    background: #FFFFFF;
+    border-radius: 0px 6px 0px 0px;
+    
+    bottom: 35px;
+    right: 82px;
+    z-index: 2;
+}
+.location-name{
+    position: relative;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+
+    mix-blend-mode: normal;
+    top: 11px;
+}
+
+.opacity{
+    position: relative;
+    opacity: 0.4;
+    top: 0px;
+}
+
+/* main testimony/bahawnya lagi */
+.ratings {
+    position: relative;
+    top: 12px;
+}
+.ratings i {
+    color: #cecece;
+    font-size: 32px
+}
+.rating-color {
+    color: #FFBB0C !important;
+}
+
+.small-ratings i {
+    color: #cecece;
+}
+.review-comment{
+    position: relative;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #393939;
+
+    top: 22px;
+}
+.user{
+    position: relative;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    top: 21px;
+}
+.role{
+    position: relative;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+
+    color: rgba(57, 57, 57, 0.85);
+
+    mix-blend-mode: normal;
+    bottom: 10px;
+}
+
+.profile-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    align-items: center;
+    border-radius: 5%;
+}
+.ring-gradient-list{
+    position: relative;
+    bottom:25px;
+    left: 45%;
+    display: inline-block;
+}
+.circle-gradient-list{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(156.14deg, #BFF0DD 12.18%, #57D2A3 87.99%);
+    border-radius: 50%;
+}
+.circle-white-list{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    left: 5px;
+    top: 5px;
+}
+
+.ring-gradient-profile{
+    position: relative;
+    bottom:2%;
+    left: 92%;
+    display: inline-block;
+    size: 12px;
+}
+
+.circle-gradient-profile{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(156.14deg, #BFF0DD 12.18%, #57D2A3 87.99%);
+    border-radius: 50%;
+}
+.circle-white-profile{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    left: 5px;
+    top: 5px;
+}
+.profile-block{
+    width: 33%;
+    height: 10%;
+    background: #FFFFFF;;
+    border-radius: 16px 0px 0px 0px;
+
+    bottom: 10%;
+    left: 67%;
+}
+.arrow-left{
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+.circle-arrow{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #D7D7D7;
+}
+
+.arrow-up{
+    position: absolute;
+    width: 14px;
+    height: 3px;
+    background: #D7D7D7;
+
+    border-radius: 16px;
+    transform: rotate(-20deg);
+
+    top: 12px;
+    left: 7px;
+}
+
+.arrow-down{
+    position: absolute;
+    width: 14px;
+    height: 3px;
+    background: #D7D7D7;
+
+    border-radius: 16px;
+    transform: rotate(20deg);
+    
+    top: 16px;
+    left: 7px;
+}
+.arrow-right{
+    position: relative;
+    top: 8px;
+    right: 5px;
+    transform: scaleX(-1);
+}
+
+.space-top{
+    margin-top: 179px;
+}
+
+@media (min-width:428px){
+    .text-block{
+        top:299px;
+        right: 284px;
+    }
+    .img-vehicle{
+        margin-bottom: 12px;
+    }
+    .profile-block{
+        top: -50px;
+    }
+}
+
+/* tablet */
+@media (min-width:768px){
+    /* header */
+    .btn-login{
+        width: 20%;   
+    }
+    .btn-register{
+        width: 20%;
+    }
+    /* main */
+    .select-order{
+        text-align: left;
+    }
+
+
+
+    /* main bawah */
+    .popular{
+        position: relative;
+
+        width: 231px;
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+
+        top: 12px;
+    }
+    .view-all{
+        width: 90px;
+        line-height: 22px;
+        right: 20px;
+        top: 32px;
+    }
+    .popular-town-list{
+        justify-content: space-between;
+    }
+    .img-vehicle{
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+    }
+    .text-block{
+        width: 320px;
+        height: 66px;
+        top: -60px;
+        right: 0px;
+    }
+    .location-name{
+        padding-left: 12px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .opacity{
+        float: right;
+        right: 12px;
+    }
+    .profile-block{
+        width: 111px;
+        height: 50px;
+        top: -50px;
+    }
+    .testimony{
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+
+        color: #000000;
+
+        mix-blend-mode: normal;
+    }
+    .ratings{
+        margin-top:144px;
+    }
+}
+
+
+
+/* laptop XS */
+@media (min-width:992px){
+    /* navbar */
+    .donut-up{
+        left: 18px;
+        top: 24px;
+    }
+    .nav-pad{
+        padding: 15px;
+    }
+    .btn-login{
+        width: 132px;
+        height: 44px;
+    }
+    .btn-register{
+        width: 132px;
+        height: 44px;
+        left: 12px;
+        top: 0;
+    }
+    /* main atas */
+    .explore-travel{
+        width: 356px;
+        font-size: 64px;
+        line-height: 80px;
+    }
+    .finder{
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 30px;
+        top: 74px;
+    }
+    .line{
+        top: 67px;
+        left: -10px;
+    }
+    .forms-select{
+        width: 220px;
+        height: 52px;
+        top: 67px;
+        margin-right: 30px;
+    }
+    .form-dates{
+        width: 220px;
+        height: 52px;
+        top: 67px;
+        margin-right: 30px;
+    }
+    .btn-explore{
+        width: 180px;
+        height: 52px;
+        top: 138px;
+    }
+    .view-all{
+        font-size: 17px;
+        line-height: 60px;
+    }
+    .img-vehicle{
+        width: 261px;
+        height: 337px;
+    }
+    .text-block{
+        position: absolute;
+        width: 120px;
+        height: 66px;
+
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .location-name{
+        padding-left: 0;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .merapi{
+        top:295px;
+        left: 0;
+    }
+    .teluk-bogam{
+        padding: 0;
+        top:295px;
+        left: 285px;
+    }
+    .bromo{
+        top:295px;
+        right: 426px;
+    }
+    .malioboro{
+        top:295px;
+        right: 141px;
+    }
+    .opacity{
+        float: left;
+        right: 0;
+    }
+    .testimony{
+        top:135px;
+    }
+    .review-comment{
+        width: 450px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .profile-img{
+        height: 470px;
+        width: 362px;
+    }
+    .profile-block{
+        left: 829px;
+        bottom: 0;
+    }
+    .arrow-left{
+        position: relative;
+        top: 8px;
+        left: 10px;
+    }
+    
+    .circle-arrow{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 3px solid #D7D7D7;
+        top: 5px;
+    }
+    
+    .arrow-up{
+        position: absolute;
+        width: 14px;
+        height: 3px;
+        background: #D7D7D7;
+    
+        border-radius: 16px;
+        transform: rotate(-20deg);
+    
+        top: 20px;
+        left: 12px;
+    }
+    
+    .arrow-down{
+        position: absolute;
+        width: 14px;
+        height: 3px;
+        background: #D7D7D7;
+    
+        border-radius: 16px;
+        transform: rotate(20deg);
+        
+        top: 24px;
+        left: 12px;
+    }
+    .arrow-right{
+        position: relative;
+        top: 8px;
+        right: 5px;
+        transform: scaleX(-1);
+    }
+    .ring-gradient-profile{
+        bottom: 256px;
+        left: 348px;
+    }
+}
+
+/* laptop S */
+@media (min-width:1024px){
+    .teluk-bogam{
+        top: 648px;
+        left: 0px;
+    }
+    .bromo{
+        left: 337px;
+    }
+    .profile-block{
+        top: 486px;
+        left: 739px;
+    }
+}
+
+/* laptop M */
+@media (min-width:1200px){
+    .bromo{
+        left: 285px;
+    }
+    .teluk-bogam{
+        top: 294px;
+        left: 570px;
+    }
+    .profile-block{
+        left: 829px;
+    }
+}
+/* Laptop L */
+@media (min-width:1400px){
+    .bromo{
+        left: 345px;
+    }
+    .teluk-bogam{
+        left: 690px;
+    }
+    .profile-block{
+        left: 919px;
+        bottom: -1px;
+    }
+}
+
+

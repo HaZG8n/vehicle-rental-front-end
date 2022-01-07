@@ -1,0 +1,393 @@
+@import url('home.css');
+
+
+.arrow-back{
+    position: relative;
+    top: 12px;
+}
+
+.arrow-up{
+    position: absolute;
+    height: 8px;
+    width: 43px;
+    background: #4A4C53;
+    transform: rotate(-20deg);
+
+    border-radius: 12px;
+}
+.arrow-down{
+    position: absolute;
+    height: 8px;
+    width: 43px;
+    background: #4A4C53;
+
+    border-radius: 12px;
+    transform: rotate(20deg);
+
+    top: 25px;
+}
+
+.detail{
+    position: absolute;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 24px;
+    left: 91px;
+    top: 10px;
+}
+
+.vehicle-detail{
+    position: relative;
+    top: 102px;
+}
+
+.vehicle-detail-img{
+    position: relative;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+.view-img{
+    display: grid;
+    width: 143px;
+    height: 78px;
+
+    border-radius: 10px;
+
+}
+.sub-grid-4{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    
+    top: 25px;
+}
+
+.prev-view{
+    display: none;
+    position: relative;
+    top: 40px;
+}
+
+.next-view{
+    position: relative;
+    display: none;
+    transform: scaleX(-1);
+    top: 40px;
+
+}
+.arrow-prev-up{
+    position: absolute;
+    height: 5px;
+    width: 40px;
+    background: #4A4C53;
+    transform: rotate(-20deg);
+    border-radius: 12px;
+}
+
+.arrow-prev-down{
+    position: absolute;
+    height: 5px;
+    width: 40px;
+    background: #4A4C53;
+    transform: rotate(20deg);
+
+    border-radius: 12px;
+
+    top: 13px;
+}
+
+.text-detail{
+    position: relative;
+    text-align: center;
+    top: 12px;
+}
+
+.detail-name{position: relative;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+
+    color: #042521;
+    top: 12px;
+}
+
+.location-name{
+    position: relative;
+    font-family: Playfair Display;
+    font-style: normal;
+}
+
+.stock-check{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+
+    color: #087E0D;
+}
+
+.payment-method{
+    position: relative;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9B0A0A;
+
+    bottom: 10px;
+}
+
+.info-vehicle{
+    position: relative;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    
+    color: #393939;
+
+    margin-bottom: 1px;
+    bottom: 18px;
+}
+
+.price{
+    position: relative;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+
+    color: #000000;
+    bottom: 10px;
+}
+
+.sub-grid-3{
+    position: relative;
+    display: grid;
+    grid-template-columns: 90px 40px 79px;
+    justify-content: space-between;
+    top:40px;
+}
+
+.select-min{
+    position: relative;
+    /* left: -40px; */
+}
+
+.box-min{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: rgba(203, 203, 212, 0.2);
+    border-radius: 10px;
+}
+.min{
+    position: absolute;
+    width: 32px;
+    height: 10px;
+
+    background: black;
+    left: 25px;
+    top: 37px;
+}
+.sum{
+    position: relative;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+
+    color: #000000;
+}
+.select-plus{
+    position: relative;
+}
+
+.box-plus{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+
+    background: #FFCD61;
+    border-radius: 10px;
+}
+.plus-horizontal{
+    position: absolute;
+    width: 32px;
+    height: 10px;
+
+    background: black;
+    left: 25px;
+    top: 37px;
+}
+.plus-vertical{
+    position: absolute;
+    width: 32px;
+    height: 10px;
+
+    background: black;
+    left: 25px;
+    top: 37px;
+
+    transform: rotate(90deg);
+}
+
+/* btn */
+.btn-grid{
+    position: relative;
+    top: 172px;
+}
+
+.btn-admin{
+    width: 100%;
+    height: 49px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+
+    color: #FFCD61;
+    background: #393939;
+    border-radius: 10px;
+}
+.btn-reservation{
+    position: relative;
+    width: 100%;
+    height: 49px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+
+    background: #FFCD61;
+    box-shadow: 0px 0px 20px rgba(251, 143, 29, 0.4);
+    border-radius: 10px;
+    top: 12px;
+}
+.btn-like{
+    position: relative;
+    width: 100%;
+    height: 49px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+
+    background: #393939;
+    border-radius: 10px;
+    top:22px;
+}
+
+.space-top{
+    position: relative;
+    top: 52px;
+}
+
+/* laptop S */
+@media (min-width:992px){
+    .arrow-down{
+        top: 32px;
+    }
+    .detail{
+        top: 16px;
+    }
+    .detail-name{
+        font-size: 48px;
+    }
+    .vehicle-detail{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .stock-check{
+        position: relative;
+        font-size: 24px;
+        line-height: 25px;
+        top: 48px;
+    }
+    .payment-method{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        top: 45px;
+    }
+    .info-vehicle{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+
+        top: 45px;
+    }
+    .price{
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 25px;
+
+        top: 65px;
+    }
+    .vehicle-detail-img{
+        width: 610px;
+        height: 409px;
+    }
+    .view-img{
+        width: 233px;
+        height: 158px;
+    }
+    .sub-grid-4{
+        grid-template-columns: auto auto auto auto;
+    }
+    .prev-view{
+        display: inline;
+        top: 70px;
+    }
+    .next-view{
+        display: inline;
+        top: 70px;
+    }
+
+    .text-detail{
+        position: relative;
+        text-align: left;
+        top: -30px;
+    }
+    .price{
+        text-align: right;
+    }
+    .sub-grid-3{
+        top: 100px;
+    }
+    .btn-grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+    }
+    .btn-admin{
+        width: 443px;
+        height: 89px;
+    }
+    .btn-reservation{
+        width: 443px;
+        height: 89px;
+        top: 0;
+    }
+    .btn-like{
+        width: 225px;
+        height: 89px;
+        top: 0;
+    }
+}
